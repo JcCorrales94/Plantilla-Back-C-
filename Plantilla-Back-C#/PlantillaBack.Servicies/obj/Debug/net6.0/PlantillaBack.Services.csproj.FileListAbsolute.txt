@@ -1,0 +1,17 @@
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Services.deps.json
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Services.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Services.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Entities.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Repositories.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Entities.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\bin\Debug\net6.0\PlantillaBack.Repositories.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.csproj.AssemblyReference.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.AssemblyInfoInputs.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.AssemblyInfo.cs
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.csproj.CoreCompileInputs.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.csproj.CopyComplete
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\refint\PlantillaBack.Services.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Services.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\ref\PlantillaBack.Services.dll

@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation" Version="11.5.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\PlantillaBack.Entities\PlantillaBack.Entities.csproj" />
+    <ProjectReference Include="..\PlantillaBack.Repositories\PlantillaBack.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7OqvYPWHzM/sfvse60Gvw7xGpKRext9vfqDTv2ey++DP8FeTHblnJB2+EBYdlTGxF1hSfKMJg1pRDpkE3huPRw==",
+  "success": true,
+  "projectFilePath": "D:\\Rocio\\Documents\\GitHub\\Plantilla-Back-C#\\Plantilla-Back-C#\\PlantillaBack.Entities\\PlantillaBack.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Propietario\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,5 @@
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Servicies.csproj.AssemblyReference.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Servicies.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Servicies.AssemblyInfoInputs.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Servicies.AssemblyInfo.cs
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Servicies\obj\Debug\net6.0\PlantillaBack.Servicies.csproj.CoreCompileInputs.cache

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\APlantilla-Back-C#.props" />
+</Project>
