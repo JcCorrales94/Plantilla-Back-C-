@@ -1,4 +1,5 @@
-﻿using PlantillaBack.Services.Security;
+﻿using PlantillaBack.Services.Email;
+using PlantillaBack.Services.Security;
 using PlantillaBack.Servicies.Artists;
 using PlantillaBack.Servicies.Users;
 
@@ -15,6 +16,8 @@ namespace Plantilla_Back_C_.Configuration
             services.AddScoped<IArtistsServices, ArtistsServices>();
             services.AddScoped<IUsersServices, UsersServices>();
             services.AddScoped<IEncryptionServices, EncryptionService>();
+            services.AddScoped<IEmailService, EmailService>();
+
         }
     }
 }

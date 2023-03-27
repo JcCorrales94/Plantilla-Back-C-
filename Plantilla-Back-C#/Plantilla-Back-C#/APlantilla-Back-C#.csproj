@@ -6,6 +6,7 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>Plantilla_Back_C_</RootNamespace>
     <UserSecretsId>e9c8d614-49f4-4c91-8423-a89e12dcd7a4</UserSecretsId>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
   </PropertyGroup>
 
   <ItemGroup>

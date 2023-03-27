@@ -1,4 +1,5 @@
 ﻿using Microsoft.OpenApi.Models;
+using System.Reflection;
 
 namespace Plantilla_Back_C_.Configuration
 {
@@ -19,6 +20,9 @@ namespace Plantilla_Back_C_.Configuration
 
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             services.AddEndpointsApiExplorer();
+
+            //? Esto nos permite tener en nuestro Swagger un controlador de autentificación para lanzar peticiones
+            //? con el token
             services.AddSwaggerGen(cfg =>
             {
                 cfg.AddSecurityDefinition("Bearer", new OpenApiSecurityScheme
@@ -44,7 +48,23 @@ namespace Plantilla_Back_C_.Configuration
                        new List<string>()
                     }
                 });
+                cfg.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Title = "Plantilla De Un Back en C#",
+                    Description = "Plantilla de clase para ayudarnos a construir un back de C#"
+
+                });
+                // SET THE COMMENTS PATH FOR THE SWAGGER JSON AND UI
+                //? PARA QUE ESTO FUNCIONE NECESITAMOS EN NUESTRA API HACE CLICK IZQUIERDO, PROPIEDADES Y BUSCAR
+                //? DOCUMENTATION Y MARCAR LA CASILLA QUE NOS SALDRÁ QUE GENERARÁ UN ARCHIVO SOBRE LOS COMENTARIOS
+                //? QUE TENGAMOS EN NUESTRO CÓDIGO. ESTOS COMENTARIÓS SON AQUELLOS QUE SE FORMAN CON 3 /. COMO EL 
+                //? EJEMPLO QUE PODEMOS ENCONTRAR EN EL "ARTISTcONTROLLER".
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                cfg.IncludeXmlComments(xmlPath);
             });
+
         }
     }
 }

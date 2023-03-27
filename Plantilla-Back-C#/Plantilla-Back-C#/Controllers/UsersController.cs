@@ -43,5 +43,13 @@ namespace Plantilla_Back_C_.Controllers
             await _userServices.UpdateUserRole(id, rolId);
             return Ok();
         }
+
+        [HttpGet]
+        [Route("recover/password/{id}")]
+        public async Task<IActionResult> ChangePassword(Guid id)
+        {
+            //? IR A BD A UNA TABLA EN LA QUE TENGAS EL GUID-EMAIL-VALIDEZ Y SI ES CORRECTO PERMITIR QUE ACTUALICE LA PASSWORD
+            return Ok();
+        }
     }
 }

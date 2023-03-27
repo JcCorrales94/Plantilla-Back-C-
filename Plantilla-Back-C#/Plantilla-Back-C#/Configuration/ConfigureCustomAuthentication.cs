@@ -8,14 +8,14 @@ namespace Plantilla_Back_C_.Configuration
     {
         internal static void AddConfigureCustomAuthentication (IServiceCollection services, ConfigurationManager configuration)
         {
-            // ADDING AUTHENTICATION
+            // ADDING AUTHENTICATION // AQUÍ INDICAMOS QUE AUTENTIFICACIÓN VAMOS A USAR 
             services.AddAuthentication(options =>
             {
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-            // ADDING JWT Bearer
+            // ADDING JWT Bearer // AQUÍ INDICAMOS CON QUE VALORES SE VA A FIRMAR EL TOKEN
             .AddJwtBearer(options =>
             {
                 options.TokenValidationParameters = new TokenValidationParameters

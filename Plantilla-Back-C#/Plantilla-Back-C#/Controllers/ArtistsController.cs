@@ -31,6 +31,12 @@ namespace Plantilla_Back_C_.Controllers
             return await _artistsService.Get(id);
         }
 
+        /// <summary>
+        /// AQUÍ INDICAMOS QUE VA A HACER NUESTRO MÉTODO
+        /// </summary>
+        /// <param name="artist"></param> //AQUI SE INDICA QUE PARÁMETROS VA A USAR NUESTRO MÉTODO.
+        /// <returns> AQUÍ INDICAMOS QUE NOS VA A DEVOLVER EL MÉTODO</returns>
+        
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] CreateArtistRequest artist)
         {

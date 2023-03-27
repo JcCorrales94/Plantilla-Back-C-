@@ -1,0 +1,12 @@
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\bin\Release\net6.0\PlantillaBack.Entities.deps.json
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\bin\Release\net6.0\PlantillaBack.Entities.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\bin\Release\net6.0\PlantillaBack.Entities.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.csproj.AssemblyReference.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.AssemblyInfoInputs.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.AssemblyInfo.cs
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.csproj.CoreCompileInputs.cache
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\refint\PlantillaBack.Entities.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\PlantillaBack.Entities.pdb
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\PlantillaBack.Entities\obj\Release\net6.0\ref\PlantillaBack.Entities.dll

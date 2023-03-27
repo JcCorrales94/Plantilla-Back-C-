@@ -30,6 +30,8 @@ namespace Plantilla_Back_C_.Middlewares
                 await HandleException(context, ex);
             }
         }
+
+        //AQUÍ REALIZAMOS UN CONTROL SOBRE LAS EXCEPCIONES QUE SURJAN
         private Task HandleException(HttpContext context, Exception ex)
         {
             _logger.LogError(ex.ToString());
@@ -37,6 +39,8 @@ namespace Plantilla_Back_C_.Middlewares
             var errorMessage = System.Text.Json.JsonSerializer.Serialize(errorMessageObject);
 
             context.Response.ContentType = "application/json";
+
+        //COMPROBAMOS EL TIPO DE ERRORES QUE SE HA PRODUCIDO 👇
 
             if (ex is ValidationException)
             {

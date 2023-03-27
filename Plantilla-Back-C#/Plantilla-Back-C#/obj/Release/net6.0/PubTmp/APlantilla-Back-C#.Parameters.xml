@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="APlantilla-Back-C20230327124752" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^D:\\Rocio\\Documents\\GitHub\\Plantilla-Back-C\#\\Plantilla-Back-C\#\\Plantilla-Back-C\#\\obj\\Release\\net6\.0\\PubTmp\\Out\\$" />
+  </parameter>
+</parameters>

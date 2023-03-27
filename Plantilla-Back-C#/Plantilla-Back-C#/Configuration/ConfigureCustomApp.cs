@@ -13,6 +13,10 @@
 
             app.UseHttpsRedirection();
 
+            //? Necesitamos añadir el "UseAuthentication" para que funcione todo el tema de Autenticaciones
+
+            app.UseAuthentication();
+
             app.UseAuthorization();
 
             app.MapControllers();

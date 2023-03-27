@@ -24,8 +24,9 @@
 	Documentación FluentValidation: https://docs.fluentvalidation.net/en/latest/ 
 	
 5.- Creamos las Clases de nuestro Services, las cuales actuaran como controladores de nuestras peticiones
-	a la BBDD. En nuestro ejemplo realizaremos un CRUD. Siempre nos devuelve un TASK debido a que 
-	trabajos con una API y esta es asíncrona, es por ello que necesitamos hacer peticiones asíncronas.
+	a la BBDD, también es donde se realiza toda la lógica de control. En nuestro ejemplo realizaremos un 
+	CRUD. Siempre nos devuelve un TASK debido a que trabajos con una API y esta es asíncrona, es por ello
+	que necesitamos hacer peticiones asíncronas.
 
 6.- Antes de crear las funcionalidades de nuestro Services, vamos a crear la estructura de nuestro
 	Repositories. Una vez creada nuestra estructura BÁSICA, nos dirigimos a nuestro program para 
@@ -46,6 +47,9 @@
 	7.2.- Cuando vayamos a realizar una ACTUALIZACIÓN de nuestra migraciones como anteriormente le dijimos
 	que la conexión a base de datos la realizara desde el "Program", ahora también necesitamos indicarle
 	que la ACTUALIZACIÓN se conecte desde el "Program" con el siguiente comando "Dotnet"
+
+	(Este comando es equivalente a realizar el comando Migrate que tenemos en "ConfigureCustomInitDataBase"
+	en la línea 24 del código)
 
 	dotnet ef --startup-project DIRECCIÓN_DEL_PROGRAM database update
 
@@ -95,3 +99,7 @@
 	de arrancar nuestra app. Una vez, tengamos la clase realizada debemos inyectarla al "Program"
 
 12.- A estas alturas podemos realizar los Controllers con las peticiones API que deseemos.
+
+13.- En este momento podemos a añadir funcionalidades tales como el servicio de Email para aquellos usuarios 
+	que se registran en nuestra API, para ello usaremos el NuGet "SendGrid". También necesitaremos crearnos
+	una cuenta en "SendGrid".

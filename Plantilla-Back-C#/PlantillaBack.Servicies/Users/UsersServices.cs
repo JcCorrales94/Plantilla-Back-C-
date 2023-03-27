@@ -15,6 +15,7 @@ using System.Security.Claims;
 using System.IdentityModel.Tokens.Jwt;
 using PlantillaBack.Entities.Users.Responses;
 using PlantillaBack.Entities.Users;
+using PlantillaBack.Services.Email;
 
 namespace PlantillaBack.Servicies.Users
 {
@@ -24,13 +25,15 @@ namespace PlantillaBack.Servicies.Users
         readonly IConfiguration _configuration;
         readonly IRolesRepository _rolesRepository;
         readonly IEncryptionServices _encryptionServices;
+        readonly IEmailService _emailService;
 
-        public UsersServices(IUsersRepository usersRepository, IConfiguration configuration, IRolesRepository rolesRepository, IEncryptionServices encryptionServices)
+        public UsersServices(IUsersRepository usersRepository, IConfiguration configuration, IRolesRepository rolesRepository, IEncryptionServices encryptionServices, IEmailService emailService)
         {
             _usersRepository = usersRepository;
             _configuration = configuration;
             _rolesRepository = rolesRepository;
             _encryptionServices = encryptionServices;
+            _emailService = emailService;
         }
 
         public async Task<AuthenticateResponse> Authenticate(AuthenticateResquest authenticateResquest)
@@ -107,6 +110,9 @@ namespace PlantillaBack.Servicies.Users
                 RolId = 2
             };
             await _usersRepository.Create(newUser);
+
+            //MÉTODO PARA EL ENVIO DE EMAIL PARA EL RESGISTRO
+            await _emailService.SendMail("", registerUserRequest.Email, "", "");
         }
 
         public async Task UpdateUserRole(int id, int roleId)

@@ -93,3 +93,8 @@ D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\
 D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\obj\Debug\net6.0\APlantilla-Back-C#.pdb
 D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\obj\Debug\net6.0\APlantilla-Back-C#.genruntimeconfig.cache
 D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\obj\Debug\net6.0\ref\APlantilla-Back-C#.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\bin\Debug\net6.0\APlantilla-Back-C#.xml
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\bin\Debug\net6.0\Newtonsoft.Json.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\bin\Debug\net6.0\SendGrid.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\bin\Debug\net6.0\StarkbankEcdsa.dll
+D:\Rocio\Documents\GitHub\Plantilla-Back-C#\Plantilla-Back-C#\Plantilla-Back-C#\obj\Debug\net6.0\APlantilla-Back-C#.xml
